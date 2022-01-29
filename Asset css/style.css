@@ -156,7 +156,6 @@ header .navbar .btn{
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 5px;
-    border: 2px solid red;
     margin-top: 5rem;
     
 }
@@ -277,7 +276,6 @@ header .navbar .btn{
     margin: 50px 0 50px 0;
 }
 .menu .img-chicken-box{
-    position: absolute;
     top: 20px;
     left: 70px;
     width: 170px;
@@ -294,7 +292,6 @@ header .navbar .btn{
 
 .menu .display-4{
     font-weight: 600;
-    border: 2 px solid rgb(43, 250, 15);
     font-size: 4rem;
 }
 
@@ -360,17 +357,35 @@ transition: 0.2s;
     
     
 }
-
-
-
-
-
-
 /* ----------menu--------  */
 
+/* ---------download-------- */
+.download{
+    background-color: var(--color-white);
+}
 
 
+.download .display-4{
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.download .d-flex img{
+    height: 50px;
+    
+}
+
+.download p{
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--color-grey);
+       
+ }
+
+/* ---------download-------- */
+
+/* -------------footer------------ */
 
 
-
-
+/* -------------footer------------ */
